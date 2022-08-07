@@ -40,6 +40,10 @@ export const data = {
 const PieChart = () => {
   const options = {
     responsive: true,
+    layout: {
+      padding: 0,
+      margin: 0
+    },
     plugins: {
       legend: {
         display: true,
@@ -52,7 +56,7 @@ const PieChart = () => {
       }
     },
     onResize: (chart, size) => {
-      console.log(size);
+      console.log(chart);
     }
   };
 

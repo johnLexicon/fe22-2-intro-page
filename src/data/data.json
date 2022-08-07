@@ -1,0 +1,49 @@
+{
+  "sections": [
+    {
+      "page": 1,
+      "header": "Front-End Developer Tasks",
+      "statements": [
+        "Implement the user interface according to UI-design (Wireframes, Mockups, Prototypes)",
+        "Fetch data from backend and render it",
+        "Add validation to existing forms",
+        "Fixing bugs by Debugging code (e.g with Chrome devtools)",
+        "Create Tests (Unit tests, Integration tests)"
+      ]
+    },
+    {
+      "page": 2,
+      "header": "Front-End Development Basic Languages",
+      "statements": [
+        "HTML (Markup Language)",
+        "CSS (Used for stying and structuring elements)",
+        "SASS (CSS Extension Language)",
+        "JavaScript (Object Oriented and dynamically typed as Python)",
+        "TypeScript (Strongly Typed JavaScript)"
+      ]
+    },
+    {
+      "page": 3,
+      "header": "Popular Frameworks",
+      "statements": [
+        "React JS (Library for building interactive UI:s)",
+        "Angular (Platform for building desktop and mobile applications)",
+        "Vue.js (Framework for building interactive UI:s)"
+      ]
+    },
+    {
+      "page": 4,
+      "header": "Common Job Prerequisites",
+      "statements": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript or TypeScript",
+        "React JS, VUE.js or Angular",
+        "+ SASS",
+        "+ Node.Js (for JavaScript server applications)",
+        "+ UX/UI Design"
+      ]
+    }
+  ]
+}

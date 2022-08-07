@@ -1,5 +1,43 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+header {
+  z-index: 5000;
+}
+
 .chart-wrapper {
   width: 50%;
   min-width: 400px;
+  max-height: 300px;
   align-self: center;
+}
+
+.hand {
+  cursor: pointer;
+}
+
+progress {
+  height: 7px;
+  color: lightblue;
+}
+
+progress::-moz-progress-bar {
+  background: lightcolor;
+}
+
+progress::-webkit-progress-value {
+  background: rgb(157, 0, 0);
+}
+
+progress::-webkit-progress-bar {
+  background: rgb(72, 72, 237);
+}
+
+#chartCard {
+  flex: 1;
+  min-height: 400px;
 }
