@@ -1,11 +1,18 @@
-const SectionInfo = () => {
+const SectionInfo = ({ statements, setCurrentNotes }) => {
   return (
-    <div className="flex-fill">
+    <div id="sectionInfo">
       <ul>
-        <li>Statement 1</li>
-        <li>Statement 2</li>
-        <li>Statement 3</li>
-        <li>Statement 4</li>
+        {statements.map((statement, index) => (
+          <li
+            onMouseEnter={() => setCurrentNotes(statement.notes)}
+            onMouseLeave={() => setCurrentNotes(null)}
+            id="statementValue"
+            className="unselect h3 mb-3"
+            key={index}
+          >
+            {statement.value}
+          </li>
+        ))}
       </ul>
     </div>
   );

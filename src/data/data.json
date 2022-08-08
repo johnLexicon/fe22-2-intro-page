@@ -2,47 +2,158 @@
   "sections": [
     {
       "page": 1,
-      "header": "Front-End Developer Tasks",
+      "header": "Front-End Kurs",
       "statements": [
-        "Implement the user interface according to UI-design (Wireframes, Mockups, Prototypes)",
-        "Fetch data from backend and render it",
-        "Add validation to existing forms",
-        "Fixing bugs by Debugging code (e.g with Chrome devtools)",
-        "Create Tests (Unit tests, Integration tests)"
+        {
+          "value": "Kurslängd: 20 veckor",
+          "notes": "Kursen är uppdelad i 6 moduler"
+        },
+        {
+          "value": "Föreläsningar",
+          "notes": "Två föreläsningar i veckan, hela dagen"
+        },
+        {
+          "value": "Självstudier",
+          "notes": "Resten av tiden. Jobba med laborationer, kolla på inspelade föreläsningar, kursmaterial på nätet"
+        },
+        {
+          "value": "Kursmaterial",
+          "notes": "Inget behöver köpas, går att låna dator från Lexicon, eller sitta i Liljeholmen (Lexicons lokaler)"
+        }
       ]
     },
     {
       "page": 2,
-      "header": "Front-End Development Basic Languages",
+      "header": "Modul 1: UX/UI Design",
       "statements": [
-        "HTML (Markup Language)",
-        "CSS (Used for stying and structuring elements)",
-        "SASS (CSS Extension Language)",
-        "JavaScript (Object Oriented and dynamically typed as Python)",
-        "TypeScript (Strongly Typed JavaScript)"
+        {
+          "value": "Modullängd: 1 Vecka",
+          "notes": "Kort introduktion till rollen som UX/UI designer, Inga förkunskaper krävs"
+        },
+        {
+          "value": "Design och layout (mobiler, surfplattor, datorer)",
+          "notes": "Går igenom de olika designprinciper"
+        },
+        {
+          "value": "Adobe XD (designplattform)",
+          "notes": "Prova på att skapa wireframes, mockups och prototyper med hjälp av designplattformen Adobe XD"
+        },
+        {
+          "value": "Genomgång av olika bildformat",
+          "notes": ""
+        },
+        {
+          "value": "Användarvänlighet på webbsidor",
+          "notes": "Går igenom olika grundregler för att skapa användarvänliga webbsidor"
+        }
       ]
     },
     {
       "page": 3,
-      "header": "Popular Frameworks",
+      "header": "Modul 2: HTML/CSS",
       "statements": [
-        "React JS (Library for building interactive UI:s)",
-        "Angular (Platform for building desktop and mobile applications)",
-        "Vue.js (Framework for building interactive UI:s)"
+        {
+          "value": "Första 2 veckor i modul 2",
+          "notes": "Gärna förkunskaper i CSS, väldigt snabb tempo"
+        },
+        {
+          "value": "HTML och dess syntaxer",
+          "notes": "Går igenom olika HTML-element och dess attribut (semantiska samt icke semantiska)"
+        },
+        {
+          "value": "Grafisk design med CSS",
+          "notes": "Lära sig att styla och strukturera responsiva hemsidor med hjälp av CSS regler"
+        },
+        {
+          "value": "Grafisk design med Bootstrap (CSS-bibliotek)",
+          "notes": "Lära sig att använda biblioteket bootstrap för att förenkla stylingen av hemsidor"
+        }
       ]
     },
     {
       "page": 4,
-      "header": "Common Job Prerequisites",
+      "header": "Modul 2: JavaScript",
       "statements": [
-        "HTML",
-        "CSS",
-        "Bootstrap",
-        "JavaScript or TypeScript",
-        "React JS, VUE.js or Angular",
-        "+ SASS",
-        "+ Node.Js (for JavaScript server applications)",
-        "+ UX/UI Design"
+        {
+          "value": "Sista 2 veckor i modul 2",
+          "notes": "Gärna förkunskaper i JavaScript eller annan programmeringsspråk, väldigt snabb tempo"
+        },
+        {
+          "value": "Grunderna i JavaScript",
+          "notes": "Går igenom sekvens, selektion, iteration, variabler, arrayer, funktioner, m.m"
+        },
+        {
+          "value": "Skillnader mellan ES5 och ES6",
+          "notes": "Går igenom de större skillnaderna mellan dessa standarder"
+        },
+        {
+          "value": "Manipulation av DOM med hjälp av JavaScript",
+          "notes": ""
+        },
+        {
+          "value": "Asynkrona anrop med JSON-objekt",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "header": "Modul 3: Back-End",
+      "statements": [
+        {
+          "value": "Modullängd: 2 Veckor",
+          "notes": "Introduktion till backend, Förkunskaper inom JavaScript, HTTP-protokollet och Webb API:er, ett plus om man har studerat back-end tidigare"
+        },
+        {
+          "value": "Förhållandet mellan Front-End och Back-End",
+          "notes": ""
+        },
+        {
+          "value": "Node.js och NPM",
+          "notes": "Använda Node.js för att exekvera program utanför Browsern, NPM för hantering av externa bibliotek"
+        },
+        {
+          "value": "Express JS ",
+          "notes": "Använda Express JS biblioteket för att skapa JavaScript baserade Webb API:er"
+        },
+        {
+          "value": "MVC-principer",
+          "notes": "Skapa API:er utifrån arkitekturmönstret Model View Controller"
+        },
+        {
+          "value": "Restful API",
+          "notes": "Skapa API:er utifrån det populära Restful API arkitekturen"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "header": "Modul 4: Vue.js",
+      "statements": [
+        {
+          "value": "Modullängd: 6 Veckor",
+          "notes": "Förkunskaper i JavaScript, "
+        },
+        {
+          "value": "SPA (Single Page Application) utveckling",
+          "notes": ""
+        },
+        {
+          "value": "Node.js och NPM",
+          "notes": "Använda Node.js för att exekvera program utanför Browsern, NPM för hantering av externa bibliotek"
+        },
+        {
+          "value": "Express JS ",
+          "notes": "Använda Express JS biblioteket för att skapa JavaScript baserade Webb API:er"
+        },
+        {
+          "value": "MVC-principer",
+          "notes": "Skapa API:er utifrån arkitekturmönstret Model View Controller"
+        },
+        {
+          "value": "Restful API",
+          "notes": "Skapa API:er utifrån det populära Restful API arkitekturen"
+        }
       ]
     }
   ]

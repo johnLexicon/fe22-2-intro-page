@@ -20,6 +20,10 @@ header {
   cursor: pointer;
 }
 
+.unselect {
+  user-select: none;
+}
+
 progress {
   height: 7px;
   color: lightblue;
@@ -37,7 +41,21 @@ progress::-webkit-progress-bar {
   background: rgb(72, 72, 237);
 }
 
+#sectionWrapper {
+  gap: 5%;
+}
+
 #chartCard {
   flex: 1;
   min-height: 400px;
+  min-width: 400px;
+}
+
+#sectionInfo {
+  flex: 1;
+}
+
+#statementValue:hover {
+  color: #d60000;
+  font-weight: bold;
 }

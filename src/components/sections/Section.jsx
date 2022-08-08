@@ -1,6 +1,15 @@
 import ChartCard from '../charts/ChartCard';
 import SectionInfo from './SectionInfo';
+import { useState } from 'react';
 const Section = ({ section }) => {
+  const [currentNotes, setCurrentNotes] = useState(null);
+
+  // const handleShowNotes = (statementId) => {
+  //   setCurrentInfo((state) => {
+  //     const statement = section.statements.find((s) => s.id === statementId);
+  //     return statement ? statement.notes : null;
+  //   });
+  // };
   return (
     <section
       id={section.page}
@@ -8,14 +17,17 @@ const Section = ({ section }) => {
       style={{ paddingTop: '7rem' }}
     >
       <h1>{section.header}</h1>
-      <div className="d-flex justify-content-between align-items-center flex-wrap">
+      <div id="sectionWrapper" className="d-flex align-items-center">
         <ChartCard />
-        <SectionInfo />
+        <SectionInfo
+          statements={section.statements}
+          setCurrentNotes={setCurrentNotes}
+        />
       </div>
       <footer className="mt-5">
         <span className="fw-bold">Notes:</span>
         <div className="lead p-3 border rounded text-danger">
-          This is the legend of Cassius
+          {currentNotes}
         </div>
       </footer>
     </section>
