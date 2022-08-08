@@ -1,11 +1,9 @@
 import PieChart from './PieChart';
 
-const ChartCard = () => {
+const ChartCard = ({ moduleName }) => {
   return (
-    <div id="chartCard" className="card bg-dark text-white h-100">
-      <div className="card-body chart-wrapper">
-        <PieChart />
-      </div>
+    <div className="chart-wrapper bg-dark p-5">
+      <PieChart moduleName={moduleName} />
     </div>
   );
 };

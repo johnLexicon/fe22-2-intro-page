@@ -17,8 +17,11 @@ const Section = ({ section }) => {
       style={{ paddingTop: '7rem' }}
     >
       <h1>{section.header}</h1>
-      <div id="sectionWrapper" className="d-flex align-items-center">
-        <ChartCard />
+      <div
+        id="sectionWrapper"
+        className="d-flex justify-content-around align-items-center flex-wrap mt-5 mb-5"
+      >
+        <ChartCard moduleName={section.moduleName} />
         <SectionInfo
           statements={section.statements}
           setCurrentNotes={setCurrentNotes}
