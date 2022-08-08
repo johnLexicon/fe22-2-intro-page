@@ -9,13 +9,6 @@ header {
   z-index: 5000;
 }
 
-/* .chart-wrapper {
-  width: 50%;
-  min-width: 400px;
-  max-height: 300px;
-  align-self: center; 
-} */
-
 .hand {
   cursor: pointer;
 }
@@ -41,19 +34,11 @@ progress::-webkit-progress-bar {
   background: rgb(72, 72, 237);
 }
 
-/* #sectionWrapper {
-  gap: 5%;
-} */
-
 #chartCard {
   flex: 1;
   min-height: 400px;
   min-width: 400px;
 }
-
-/* #sectionInfo {
-  flex: 1;
-} */
 
 #statementValue:hover {
   color: #d60000;
