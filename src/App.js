@@ -9,6 +9,7 @@ import sectionData from './data/data.json';
 function App() {
   const [sections] = useState(sectionData.sections);
   const [currentPage, setCurrentPage] = useState(1);
+  const [currentSection, setCurrentSection] = useState(sections[0]);
 
   const navigateTo = (direction) => {
     if (direction === 'up' && currentPage > 1)
@@ -22,8 +23,10 @@ function App() {
   };
 
   useEffect(() => {
-    document.getElementById(currentPage).scrollIntoView({ behavior: 'smooth' });
-  }, [currentPage]);
+    setCurrentSection((state) =>
+      sections.find((section) => section.page === currentPage)
+    );
+  }, [currentPage, sections]);
 
   return (
     <div className="App">
@@ -35,9 +38,7 @@ function App() {
         />
       </header>
       <main className="container-fluid">
-        {sections.map((section) => (
-          <Section key={section.page} section={section} />
-        ))}
+        <Section section={currentSection} />
       </main>
       <NavArrows
         handleNavigation={navigateTo}
