@@ -17,6 +17,11 @@ header {
   user-select: none;
 }
 
+.statement {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
 progress {
   height: 7px;
   color: lightblue;

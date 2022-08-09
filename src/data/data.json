@@ -137,27 +137,69 @@
       "statements": [
         {
           "value": "Modullängd: 6 Veckor",
-          "notes": "Förkunskaper i JavaScript, "
+          "notes": "Förkunskaper i JavaScript"
         },
         {
           "value": "SPA (Single Page Application) utveckling",
+          "notes": "Skapa komponenter, skicka data mellan komponenter, VUE lifecycle, binding, options vs composition API, m.m"
+        },
+        {
+          "value": "Routing",
           "notes": ""
         },
         {
-          "value": "Node.js och NPM",
-          "notes": "Använda Node.js för att exekvera program utanför Browsern, NPM för hantering av externa bibliotek"
+          "value": "State Management med Vuex och Pinia",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "header": "Modul 5: React JS",
+      "moduleName": "React JS",
+      "statements": [
+        {
+          "value": "Modullängd: 6 Veckor",
+          "notes": "Förkunskaper i JavaScript"
         },
         {
-          "value": "Express JS ",
-          "notes": "Använda Express JS biblioteket för att skapa JavaScript baserade Webb API:er"
+          "value": "SPA (Single Page Application) utveckling",
+          "notes": "Skapa komponenter, skicka data mellan komponenter (props drilling), binding, hooks, mm."
         },
         {
-          "value": "MVC-principer",
-          "notes": "Skapa API:er utifrån arkitekturmönstret Model View Controller"
+          "value": "Routing",
+          "notes": ""
         },
         {
-          "value": "Restful API",
-          "notes": "Skapa API:er utifrån det populära Restful API arkitekturen"
+          "value": "State Management med Redux",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "header": "Modul 6: Agila Projektmetoder och Verktyg",
+      "moduleName": "Agile Development",
+      "statements": [
+        {
+          "value": "Modullängd: 1 Vecka",
+          "notes": "Inga förkunskaper krävs, övas vidare under praktiken"
+        },
+        {
+          "value": "Agil projektförståelse",
+          "notes": ""
+        },
+        {
+          "value": "Agila projektverktyg",
+          "notes": ""
+        },
+        {
+          "value": "Processen KANBAN samt Ramverket Scrum",
+          "notes": ""
+        },
+        {
+          "value": "Agil webbutveckling",
+          "notes": ""
         }
       ]
     }

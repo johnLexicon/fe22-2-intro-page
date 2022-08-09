@@ -7,7 +7,7 @@ const SectionInfo = ({ statements, setCurrentNotes }) => {
             onMouseEnter={() => setCurrentNotes(statement.notes)}
             onMouseLeave={() => setCurrentNotes(null)}
             id="statementValue"
-            className="unselect h3 mb-3"
+            className="statement unselect mb-3"
             key={index}
           >
             {statement.value}

@@ -81,10 +81,10 @@ const PieChart = ({ moduleName }) => {
         position: 'top',
         align: 'top'
       }
-    },
-    onResize: (chart, size) => {
-      console.log(chart);
     }
+    // onResize: (chart, size) => {
+    //   console.log(chart);
+    // }
   };
 
   return <Pie width={400} height={300} data={data} options={options} />;
