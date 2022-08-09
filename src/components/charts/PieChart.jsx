@@ -47,7 +47,7 @@ const PieChart = ({ moduleName }) => {
         backgroundColor: backgroundColors,
         borderColor: borderColors,
         borderWidth: 1,
-        hoverOffset: 20
+        hoverOffset: 10
       }
     ]
   };
