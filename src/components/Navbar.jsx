@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="navbar-brand d-inline-block">
           <img src={logo} height="48" alt="Lexicon logo" />
         </div>
-        <div className="h2 m-3">Front-End Course</div>
+        <div className="h2 m-3">Front-End</div>
       </div>
     </nav>
   );

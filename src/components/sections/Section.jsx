@@ -15,7 +15,7 @@ const Section = ({ section }) => {
         id="sectionWrapper"
         className="d-flex justify-content-around align-items-center flex-wrap mt-5 mb-5"
       >
-        <ChartCard moduleName={section.moduleName} />
+        {section.showChart && <ChartCard moduleName={section.moduleName} />}
         <SectionInfo
           statements={section.statements}
           setCurrentNotes={setCurrentNotes}

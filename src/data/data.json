@@ -2,6 +2,7 @@
   "sections": [
     {
       "page": 1,
+      "showChart": false,
       "header": "Front-End Kurs",
       "statements": [
         {
@@ -10,26 +11,50 @@
         },
         {
           "value": "Föreläsningar",
-          "notes": "Två föreläsningar i veckan, hela dagen"
-        },
-        {
-          "value": "Självstudier",
-          "notes": "Resten av tiden. Jobba med laborationer, kolla på inspelade föreläsningar, kursmaterial på nätet"
-        },
-        {
-          "value": "Kursmaterial",
-          "notes": "Inget behöver köpas, går att låna dator från Lexicon, eller sitta i Liljeholmen (Lexicons lokaler)"
+          "notes": "Två föreläsningar i veckan som sträcker sig hela dagen, resten av tiden självstudier"
         }
       ]
     },
     {
       "page": 2,
+      "showChart": true,
+      "header": "Moduler",
+      "statements": [
+        {
+          "value": "UX/UI Design (1 Vecka)",
+          "notes": ""
+        },
+        {
+          "value": "HTML/CSS/JavaScript (4 Veckor)",
+          "notes": ""
+        },
+        {
+          "value": "Back-End (2 Veckor)",
+          "notes": ""
+        },
+        {
+          "value": "Vue.js (6 Veckor)",
+          "notes": ""
+        },
+        {
+          "value": "React JS (6 Veckor)",
+          "notes": ""
+        },
+        {
+          "value": "Agila Projektmetoder och Verktyg (1 Vecka)",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "showChart": true,
       "header": "Modul 1: UX/UI Design",
       "moduleName": "UX/UI",
       "statements": [
         {
           "value": "Modullängd: 1 Vecka",
-          "notes": "Kort introduktion till rollen som UX/UI designer, Inga förkunskaper krävs"
+          "notes": "Kort introduktion till rollen som UX/UI designer, Inga förkunskaper krävs, få en förståelse inom ämnet."
         },
         {
           "value": "Design och layout (mobiler, surfplattor, datorer)",
@@ -50,7 +75,8 @@
       ]
     },
     {
-      "page": 3,
+      "page": 4,
+      "showChart": true,
       "header": "Modul 2: HTML/CSS",
       "moduleName": "HTML/CSS/JavaScript",
       "statements": [
@@ -73,7 +99,8 @@
       ]
     },
     {
-      "page": 4,
+      "page": 5,
+      "showChart": true,
       "header": "Modul 2: JavaScript",
       "moduleName": "HTML/CSS/JavaScript",
       "statements": [
@@ -100,7 +127,8 @@
       ]
     },
     {
-      "page": 5,
+      "page": 6,
+      "showChart": true,
       "header": "Modul 3: Back-End",
       "moduleName": "Backend",
       "statements": [
@@ -131,7 +159,8 @@
       ]
     },
     {
-      "page": 6,
+      "page": 7,
+      "showChart": true,
       "header": "Modul 4: Vue.js",
       "moduleName": "Vue.js",
       "statements": [
@@ -154,7 +183,8 @@
       ]
     },
     {
-      "page": 7,
+      "page": 8,
+      "showChart": true,
       "header": "Modul 5: React JS",
       "moduleName": "React JS",
       "statements": [
@@ -177,7 +207,8 @@
       ]
     },
     {
-      "page": 8,
+      "page": 9,
+      "showChart": true,
       "header": "Modul 6: Agila Projektmetoder och Verktyg",
       "moduleName": "Agile Development",
       "statements": [
